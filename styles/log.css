@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Prompt", sans-serif;
+    color: white;
+}
+
+#main-content{
+    margin-top: 30px;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+#main-content button{
+    display: flex;
+    align-items: center;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.input-box{
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    min-height: 100px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-left: 28px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.current-page{
+    margin-bottom: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.btn{
+    background-color: #D1286F;
+}
+
+.toolbar img{
+    height: 40px;
+    width: 40px;
+}
+
+button{
+    background-color: black;
+    border: none;
+}
